@@ -1,6 +1,4 @@
-# Multi Threaded Files Downloader
-
-[![NPM](https://nodei.co/npm/mt-files-downloader.png)](https://nodei.co/npm/mt-files-downloader/)
+# Multi Threaded Files Downloader in NodeJS
 
 This module wrap the [mt-downloader](https://www.npmjs.com/package/mt-downloader) module and let you :
 
@@ -10,10 +8,6 @@ This module wrap the [mt-downloader](https://www.npmjs.com/package/mt-downloader
 - Manually resume a download from partial file
 - Stop and resume downloads
 - Get notified by events when a download start, fail, retry, stopped, destroyed or complete
-
-## Install
-
-	npm install mt-files-downloader
 
 ## Usage
 
@@ -32,17 +26,6 @@ Create a new download :
 Start the download :
 
 	dl.start();
-
-## Examples
-
-You can find complete examples in the `examples/` folder :
-
-- [Simple download](https://github.com/leeroybrun/node-mt-files-downloader/blob/master/examples/simple-download.js)
-- [Multiple downloads](https://github.com/leeroybrun/node-mt-files-downloader/blob/master/examples/multiple-downloads.js)
-- [Resume download](https://github.com/leeroybrun/node-mt-files-downloader/blob/master/examples/resume-download.js)
-- [Stop & resume download](https://github.com/leeroybrun/node-mt-files-downloader/blob/master/examples/stop-n-resume-download.js)
-- [Destroy download](https://github.com/leeroybrun/node-mt-files-downloader/blob/master/examples/destroy-download.js)
-- [Custom download options](https://github.com/leeroybrun/node-mt-files-downloader/blob/master/examples/custom-download-options.js)
 
 ## Events
 
@@ -115,32 +98,3 @@ The Downloader object exposes some formatters for the stats as static methods :
 - resume() : resume download
 - stop() : stop the download, keep the files
 - destroy() : stop the download, remove files
-
-## TODO
-
-- Validate data (setters)
-- Add tests
-
-## Licence
-
-The MIT License (MIT)
-
-Copyright (c) 2015 Leeroy Brun
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
