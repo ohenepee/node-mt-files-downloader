@@ -13,7 +13,7 @@ This is an up-to-date module that lets you:
 
 Require the module:
 
-	var Downloader = require('mt-files-downloader');
+	var Downloader = require('nodejs-download-manager');
 
 Create a new Downloader instance:
 
