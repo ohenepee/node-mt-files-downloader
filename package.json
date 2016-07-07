@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/leeroybrun/node-mt-files-downloader",
   "dependencies": {
-    "moment": "^2.9.0",
-    "mt-downloader": "^0.2.10"
+    "moment": "^2.14.1",
+    "mt-downloader": "^1.5.3"
   }
 }
