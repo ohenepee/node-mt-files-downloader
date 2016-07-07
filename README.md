@@ -1,6 +1,6 @@
-# Multi Threaded Files Downloader in NodeJS
+# Multi-threaded Files Downloader in NodeJS
 
-This module wrap the [mt-downloader](https://www.npmjs.com/package/mt-downloader) module and let you :
+This module lets you :
 
 - Manage multiple downloads
 - Get stats (speed, eta, completed, etc)
