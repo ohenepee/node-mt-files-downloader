@@ -1,21 +1,10 @@
 {
-  "name": "mt-files-downloader",
-  "version": "0.2.5",
-  "description": "Download manager with multiple features : download stats, stop & resume, auto-retry (continue) in case of error, events, etc.",
+  "name": "nodejs-download-manager",
+  "version": "1.7.5",
+  "description": "Download manager written in NodeJS with download stats, stop & resume, auto-retry (continue), events, etc.",
   "main": "lib/Downloader.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/leeroybrun/node-mt-files-downloader.git"
-  },
-  "author": "Leeroy Brun <leeroy.brun@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/leeroybrun/node-mt-files-downloader/issues"
-  },
-  "homepage": "https://github.com/leeroybrun/node-mt-files-downloader",
+  "private": "true",
+  "license": "UNLICENSED",
   "dependencies": {
     "moment": "^2.14.1",
     "mt-downloader": "^1.5.3"
