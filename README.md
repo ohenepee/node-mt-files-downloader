@@ -1,6 +1,6 @@
-# Multi-threaded Files Downloader in NodeJS
+# NodeJS Download Manager
 
-This module lets you :
+This is an up-to-date module that lets you:
 
 - Manage multiple downloads
 - Get stats (speed, eta, completed, etc)
@@ -11,19 +11,19 @@ This module lets you :
 
 ## Usage
 
-Require the module :
+Require the module:
 
 	var Downloader = require('mt-files-downloader');
 
-Create a new Downloader instance :
+Create a new Downloader instance:
 
 	var downloader = new Downloader();
 
-Create a new download :
+Create a new download:
 
 	var dl = downloader.download('FILE_URL', 'FILE_SAVE_PATH');
 
-Start the download :
+Start the download:
 
 	dl.start();
 
